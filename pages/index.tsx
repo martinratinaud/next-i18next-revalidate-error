@@ -19,8 +19,19 @@ const Home: NextPage = (props) => {
       <h1>{t('common:test')}</h1>
       <div>
         <small>
-          Switch locale: <Link href="/fr">🇫🇷</Link> - <Link href="/en">🇬🇧</Link>
+          Switch locale:{' '}
+          <Link href="/" locale="fr">
+            🇫🇷
+          </Link>{' '}
+          -{' '}
+          <Link href="/" locale="en">
+            🇬🇧
+          </Link>
         </small>
+      </div>
+
+      <div>
+        Go check _debug page <Link href="/_debug/1">debug 1</Link>
       </div>
 
       <h2>Props</h2>
