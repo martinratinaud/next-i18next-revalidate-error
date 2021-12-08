@@ -6,7 +6,7 @@ module.exports = {
     localePath: "translations",
     reloadOnPrerender: true,
   },
-  // ns:["common"],
+  ns:["common"],
   // https://github.com/vercel/next.js/issues/22508
   react: {
     useSuspense: false,
